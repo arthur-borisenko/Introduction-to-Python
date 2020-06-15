@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 113
-    length: 31
+    length: 17
     placeholder_text: Convert float_number to integer
     initial_state:
       length: 31
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: int(float_number)
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     number = 9
     print(type(number))   # print type of variable "number"
@@ -38,5 +38,5 @@ files:
         run_common_tests()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

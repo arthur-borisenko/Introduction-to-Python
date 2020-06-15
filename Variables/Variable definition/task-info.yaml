@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 345
-    length: 13
+    length: 7
     placeholder_text: another value
     initial_state:
       length: 13
       offset: 345
     initialized_from_dependency: false
     possible_answer: 5
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     a = b = 2  # This is called a "chained assignment". It assigns the value 2 to variables "a" and "b".
     print("a = " + str(a))   # We'll explain the expression str(a) later in the course. For now it is used to convert the  variable "a" to a string.
@@ -49,5 +49,5 @@ files:
         run_common_tests("You should redefine the variable 'greetings'")
         test_value()
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

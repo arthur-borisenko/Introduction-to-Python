@@ -1,2 +1,2 @@
-variable = 1
-print(other variable)
+other_variable = 1
+print(other_variable1)
