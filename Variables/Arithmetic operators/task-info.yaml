@@ -4,17 +4,17 @@ files:
   visible: true
   placeholders:
   - offset: 45
-    length: 22
+    length: 27
     placeholder_text: divide 'number' by two
     initial_state:
       length: 22
       offset: 45
     initialized_from_dependency: false
     possible_answer: number / 2
-    selected: false
-    status: Unchecked
-  - offset: 81
-    length: 23
+    selected: true
+    status: Solved
+  - offset: 86
+    length: 13
     placeholder_text: calculate the remainder
     initial_state:
       length: 23
@@ -22,7 +22,7 @@ files:
     initialized_from_dependency: false
     possible_answer: number % 2
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     number = 9.0        # float number
 
@@ -75,5 +75,5 @@ files:
         test_division()
         test_remainder()
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
