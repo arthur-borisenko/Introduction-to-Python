@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 34
-    length: 8
+    length: 2
     placeholder_text: operator
     initial_state:
       length: 8
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: ==
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     two = 2
     three = 3
@@ -50,5 +50,5 @@ files:
         test_value()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
