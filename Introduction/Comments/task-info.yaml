@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 138
-    length: 20
+    length: 16
     placeholder_text: add new comment here
     initial_state:
       length: 20
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: new comment
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     # This is the comment for the comments.py file
     print("Hello!")  # this comment is for the second line
@@ -28,5 +28,5 @@ files:
     if __name__ == '__main__':
         run_common_tests("You should type new comment")
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
