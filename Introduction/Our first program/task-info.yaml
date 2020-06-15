@@ -31,7 +31,7 @@ files:
     length: 5
     placeholder_text: type your name
     initial_state:
-      length: 14
+      length: 5
       offset: 32
     initialized_from_dependency: false
     possible_answer: Liana
