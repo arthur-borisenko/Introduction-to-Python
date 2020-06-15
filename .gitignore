@@ -1,2 +1,8 @@
 # Default ignored files
 /.idea
+task-info.yaml
+task-remote-info.yaml
+lesson-info.yaml
+lesson-remote-info.yaml
+course-info.yaml
+course-remote-info.yaml
